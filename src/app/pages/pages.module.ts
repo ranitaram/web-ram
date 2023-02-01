@@ -6,6 +6,9 @@ import { BlogComponent } from './blog/blog.component';
 import { PagesComponent } from './pages.component';
 import { AppRoutingModule } from '../app-routing.module';
 
+import { NeonbuttonsComponent } from './buttons/neonbuttons/neonbuttons.component';
+import { FancybuttonsComponent } from './buttons/fancybuttons/fancybuttons.component';
+
 
 
 @NgModule({
@@ -14,6 +17,9 @@ import { AppRoutingModule } from '../app-routing.module';
     ContenedoresComponent,
     BlogComponent,
     PagesComponent,
+    NeonbuttonsComponent,
+    FancybuttonsComponent,
+    
     
   ],
   imports: [
@@ -25,7 +31,8 @@ import { AppRoutingModule } from '../app-routing.module';
     ContenedoresComponent,
     BlogComponent,
     PagesComponent,
-    
+    NeonbuttonsComponent,
+    FancybuttonsComponent
   ]
 })
 export class PagesModule { }
