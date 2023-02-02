@@ -2,8 +2,8 @@ import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit,
 
 @Component({
   selector: 'app-pagina1',
-  templateUrl: './pagina1.component.html',
-  styleUrls: ['./pagina1.component.css']
+  templateUrl: './buttons.component.html',
+  styleUrls: ['./buttons.component.css']
 })
 export class Pagina1Component implements OnInit, 
   OnChanges, DoCheck, AfterContentInit, AfterContentChecked,

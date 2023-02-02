@@ -8,6 +8,8 @@ import { AppRoutingModule } from '../app-routing.module';
 
 import { NeonbuttonsComponent } from './buttons/neonbuttons/neonbuttons.component';
 import { FancybuttonsComponent } from './buttons/fancybuttons/fancybuttons.component';
+import { GradientbuttonhoverComponent } from './buttons/gradientbuttonhover/gradientbuttonhover.component';
+import { AnimationbuttonsComponent } from './buttons/animationbuttons/animationbuttons.component';
 
 
 
@@ -19,6 +21,9 @@ import { FancybuttonsComponent } from './buttons/fancybuttons/fancybuttons.compo
     PagesComponent,
     NeonbuttonsComponent,
     FancybuttonsComponent,
+    GradientbuttonhoverComponent,
+    AnimationbuttonsComponent,
+    
     
     
   ],
@@ -32,7 +37,9 @@ import { FancybuttonsComponent } from './buttons/fancybuttons/fancybuttons.compo
     BlogComponent,
     PagesComponent,
     NeonbuttonsComponent,
-    FancybuttonsComponent
+    FancybuttonsComponent,
+    GradientbuttonhoverComponent,
+    AnimationbuttonsComponent
   ]
 })
 export class PagesModule { }
