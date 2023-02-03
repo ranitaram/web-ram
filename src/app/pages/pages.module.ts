@@ -12,6 +12,8 @@ import { GradientbuttonhoverComponent } from './buttons/gradientbuttonhover/grad
 import { AnimationbuttonsComponent } from './buttons/animationbuttons/animationbuttons.component';
 import { SharedModule } from '../shared/shared.module';
 
+import { ButtonhovereffectswitboxShadowComponent } from './buttons/buttonhovereffectswitbox-shadow/buttonhovereffectswitbox-shadow.component';
+
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { SharedModule } from '../shared/shared.module';
     FancybuttonsComponent,
     GradientbuttonhoverComponent,
     AnimationbuttonsComponent,
+    
+    ButtonhovereffectswitboxShadowComponent,
     
     
     
@@ -41,7 +45,9 @@ import { SharedModule } from '../shared/shared.module';
     NeonbuttonsComponent,
     FancybuttonsComponent,
     GradientbuttonhoverComponent,
-    AnimationbuttonsComponent
+    AnimationbuttonsComponent,
+    
+    ButtonhovereffectswitboxShadowComponent
   ]
 })
 export class PagesModule { }
