@@ -10,6 +10,7 @@ import { NeonbuttonsComponent } from './buttons/neonbuttons/neonbuttons.componen
 import { FancybuttonsComponent } from './buttons/fancybuttons/fancybuttons.component';
 import { GradientbuttonhoverComponent } from './buttons/gradientbuttonhover/gradientbuttonhover.component';
 import { AnimationbuttonsComponent } from './buttons/animationbuttons/animationbuttons.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -29,7 +30,8 @@ import { AnimationbuttonsComponent } from './buttons/animationbuttons/animationb
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   exports: [
     BoostrapComponent,
